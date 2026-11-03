@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telisha Simone N. Dela Cruz — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">PORTFOLIO.</a>
+      <nav class="nav-links">
+        <a href="#about">[ INTRODUCTION ]</a>
+        <a href="#hobbies">[ HOBBIES ]</a>
+        <a href="#photography">[ ALBUM ]</a>
+        <a href="#contact">[ CONTACT ]</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section hero-with-bg" style="--hero-bg: url('images/titlepage.png');">
+      <div class="hero-content relative-content">
+        <h1 class="hero-name">Telisha Simone<br /><em>N. Dela Cruz</em></h1>
+        <p class="hero-tagline">BSIT WMAD 3F-G2</p>
+        <div class="hero-action">
+          <a href="#contact" class="btn-primary">Get in touch</a>
+          <a href="#about" class="scroll-prompt">
+            <span>SCROLL TO EXPLORE</span>
+            <div class="arrow-down">&darr;</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-card-frame">
+          <div class="about-card-inner">
+            
+            <!-- Profile Photo -->
+            <div class="intro-image-wrapper">
+              <div class="sticker-plate">
+                <img 
+                  src="images/telisha.png" 
+                  alt="Telisha Simone N. Dela Cruz" 
+                  class="portrait-img"
+                />
+              </div>
+            </div>
+
+            <!-- Profile Info -->
+            <div class="intro-text-content">
+              <div class="intro-meta-header">
+                <span class="sub-label">ABOUT ME</span>
+              </div>
+
+              <h2 class="section-title">Telisha Simone<br /><em>N. Dela Cruz</em></h2>
+              <div class="divider"></div>
+
+              <p class="lead-quote">
+                Cultivating thoughtful digital spaces at the intersection of intentional aesthetics, responsive technology, and authentic moments.
+              </p>
+
+              <p class="body-text">
+                I am a 3rd-year BSIT WMAD student focused on crafting clean, user-centric interfaces. When I step away from code, you’ll find me documenting quiet light through photography, exploring creative survival in Minecraft, or getting lost in manhwa narratives.
+              </p>
+
+              <!-- Profile Details -->
+              <div class="profile-details-grid">
+                <div class="detail-item">
+                  <span class="detail-label">PROGRAM</span>
+                  <span class="detail-value">BSIT WMAD 3F-G2</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">SPECIALIZATION</span>
+                  <span class="detail-value">Web &amp; UI/UX Design</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">ARCHIVE</span>
+                  <span class="detail-value">Unfazed Panorama</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section hobbies-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="sub-label">HOBBIES</span>
+          <h2 class="section-title">What Keeps Me Inspired</h2>
+        </div>
+
+        <div class="hobbies-grid three-col">
+          <article class="hobby-card">
+            <span class="hobby-num">01</span>
+            <h3 class="hobby-title">Playing Minecraft</h3>
+            <p class="hobby-desc">
+              Immersing in world-building, exploring survival servers, and crafting cozy block architecture—balancing creative freedom with quiet, sandbox exploration.
+            </p>
+          </article>
+
+          <article class="hobby-card">
+            <span class="hobby-num">02</span>
+            <h3 class="hobby-title">Photography</h3>
+            <p class="hobby-desc">
+              Documenting candid street moments, figurines, natural lighting, and textures—framing small, unnoticed details into meaningful visual stories.
+            </p>
+          </article>
+
+          <article class="hobby-card">
+            <span class="hobby-num">03</span>
+            <h3 class="hobby-title">Reading Manhwa</h3>
+            <p class="hobby-desc">
+              Unwinding with captivating webtoons, enjoying intricate visual artistry, dynamic character narratives, and compelling fantasy/slice-of-life storytelling.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photography Marquee Section -->
+    <section id="photography" class="section photo-section">
+      <div class="container text-center">
+        <div class="section-header">
+          <span class="sub-label">PHOTO ARCHIVE</span>
+          <h2 class="section-title">Through The Viewfinder</h2>
+          <p class="gallery-subtitle">Hover to pause &bull; Click any photo to enlarge</p>
+        </div>
+      </div>
+
+      <!-- Marquee Carousel -->
+      <div class="showcase-marquee-wrapper" id="marqueeWrapper">
+        <div class="marquee-track" id="marqueeTrack">
+          
+          <!-- Primary Photo List -->
+          <div class="marquee-group">
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 1.jpg" alt="Photo 1" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 2.jpg" alt="Photo 2" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 3.jpg" alt="Photo 3" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 4.jpg" alt="Photo 4" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 5.jpg" alt="Photo 5" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 6.jpg" alt="Photo 6" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 7.jpg" alt="Photo 7" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 8.jpg" alt="Photo 8" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 9.jpg" alt="Photo 9" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 10.jpg" alt="Photo 10" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 11.jpg" alt="Photo 11" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 12.jpg" alt="Photo 12" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 13.jpg" alt="Photo 13" loading="lazy" />
+            </figure>
+          </div>
+
+          <!-- Loop Clone -->
+          <div class="marquee-group" aria-hidden="true">
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 1.jpg" alt="Photo 1" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 2.jpg" alt="Photo 2" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 3.jpg" alt="Photo 3" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 4.jpg" alt="Photo 4" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 5.jpg" alt="Photo 5" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 6.jpg" alt="Photo 6" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 7.jpg" alt="Photo 7" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 8.jpg" alt="Photo 8" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 9.jpg" alt="Photo 9" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 10.jpg" alt="Photo 10" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 11.jpg" alt="Photo 11" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 12.jpg" alt="Photo 12" loading="lazy" />
+            </figure>
+            <figure class="showcase-card landscape">
+              <img src="images/Photo 13.jpg" alt="Photo 13" loading="lazy" />
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-container">
+        
+        <!-- Contact Heading & Icon -->
+        <div class="contact-header-wrap">
+          <h2 class="contact-hero-title">CONTACT<br />ME.</h2>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-card">
+          <form class="kindred-form" onsubmit="event.preventDefault();">
+            
+            <div class="form-row-duo">
+              <div class="form-field">
+                <label for="firstName">FIRST NAME <span class="req">(required)</span></label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-field">
+                <label for="lastName">LAST NAME <span class="req">(required)</span></label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="email">EMAIL <span class="req">(required)</span></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-field">
+              <label for="topic">HOW CAN WE SUPPORT YOU? <span class="req">(required)</span></label>
+              <div class="select-wrapper">
+                <select id="topic" name="topic" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="collab">Creative Collaboration / Web Project</option>
+                  <option value="photo">Photography Inquiry</option>
+                  <option value="chat">Just saying hello</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-submit-wrap">
+              <button type="submit" class="kindred-send-btn">[ SEND ]</button>
+            </div>
+
+          </form>
+
+          <!-- Social Link -->
+          <div class="contact-social-wrap">
+            <span class="social-tag">CONNECT ON FACEBOOK:</span>
+            <a 
+              href="https://www.facebook.com/profile.php?id=100090976065991" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="social-link-badge"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              <span>Unfazed Panorama</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Photo Modal -->
+  <div class="modal" id="photoModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close photo preview">&times;</button>
+      <img id="modalImg" src="" alt="Enlarged view" />
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p class="studio-name">TELISHA SIMONE N. DELA CRUZ</p>
+        <p class="copyright">&copy; 2026. Made with care and intention.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
